@@ -1,0 +1,136 @@
+body {
+  text-align: center;
+  background-image: url('/assets/imgs/drumbackgroun.jpg');
+  background-position: center;
+  background-size: cover;
+  margin:0;
+}
+
+#title {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.a {
+  background-image: url("/assets/imgs/tom1.png");
+}
+
+.f {
+  background-image: url("/assets/imgs/tom2.png");
+}
+
+.d {
+  background-image: url("/assets/imgs/tom3.png");
+}
+
+.s {
+  background-image: url("/assets/imgs/tom4.png");
+}
+
+.j {
+  background-image: url("/assets/imgs/snare.png");
+}
+
+.l {
+  background-image: url("/assets/imgs/crash.png");
+}
+
+.k {
+  background-image: url("/assets/imgs/kick.png");
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+nav{
+  display: flex;
+  color:black;
+  background-color: whitesmoke;
+  height:50px;
+  justify-content: space-between;
+  align-items: center;
+}
+nav h1{
+  font-size: 20px;
+  margin:0;
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+a{
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+}
+
+.dropdown h1{margin:0;
+  margin-left: 30px;
+  margin-right: 30px;
+  cursor: pointer;}
+
+.dropdown-content {
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 10px;
+  border-radius: 10px;
+  opacity: 0.9;
+  z-index: 3;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.header-a{
+  display: inline-block;
+  margin:20px;
+}
+.header-a:hover{
+  font-size: 2.0em;
+}

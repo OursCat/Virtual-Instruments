@@ -1,0 +1,82 @@
+canvas {
+	width: 66%;
+	height: 80%;
+	position: relative;
+	top:10vh;
+	left:20%;
+	background-image: url(../imgs/window.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+body, html {
+ height: 100%;
+ margin: 0;
+
+}
+
+.paper{
+	position: absolute;
+	color:black;
+	width:100%;
+	text-align: center;
+	margin-top: 5vh;
+	
+	
+}
+nav{
+	display: flex;
+	color:black;
+	background-color: whitesmoke;
+	height:50px;
+	justify-content: space-between;
+	align-items: center;
+  }
+nav h1{
+	font-size: 20px;
+	margin:0;
+	margin-left: 20px;
+	margin-right: 20px;
+	cursor: pointer;
+	font-family: Arial, Helvetica, sans-serif;
+  }
+  
+
+  a{
+	text-decoration: none;
+  }
+  
+  .dropdown {
+	position: relative;
+	display: block;
+  }
+  
+  .dropdown h1{margin:0;
+	margin-left: 30px;
+	margin-right: 30px;
+	cursor: pointer;}
+  
+  .dropdown-content {
+	cursor: pointer;
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 120px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	padding: 12px 10px;
+	border-radius: 10px;
+	opacity: 0.9;
+	z-index: 3;
+  }
+  
+  .dropdown:hover .dropdown-content {
+	display: block;
+  }
+  
+  .header-a{
+	display: inline-block;
+	margin:20px;
+  }
+  .header-a:hover{
+	font-size: 2.0em;
+  }

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../assets/css/piano.css">
+
+  <title>Piano</title>
+</head>
+
+<body>
+  <nav>
+    <a href="/index.html">
+      <h1>Home</h1>
+    </a>
+    <div class="dropdown">
+      <h1>Select Instruments</h1>
+      <div class="dropdown-content">
+        <a href='/pages/drum.html' class='header-a'>Drum</a>
+        <br>
+        <a href='/pages/taptap.html' class='header-a'>Taptap</a>
+      </div>
+    </div>
+
+  </nav>
+  <div class="container-piano">
+    <div class="piano">
+      <div data-note="C" class="key white">
+        <h1>C</h1>
+        <BUtton>A</BUtton>
+      </div>
+      <div data-note="Db" class="key black"><BUtton class='blackButton'>W</BUtton>
+        <h2>Db</h2>
+      </div>
+      <div data-note="D" class="key white">
+        <h1>D</h1>
+        <BUtton>S</BUtton>
+      </div>
+
+      <div data-note="Eb" class="key black"><BUtton class='blackButton'>E</BUtton>
+        <h2>Eb</h2>
+      </div>
+      <div data-note="E" class="key white">
+        <h1>E</h1>
+        <BUtton>D</BUtton>
+      </div>
+      <div data-note="F" class="key white">
+        <h1>F</h1>
+        <BUtton>F</BUtton>
+      </div>
+      <div data-note="Gb" class="key black"><BUtton class='blackButton'>T</BUtton>
+        <h2>Gb</h2>
+      </div>
+      <div data-note="G" class="key white">
+        <h1>G</h1>
+        <BUtton>G</BUtton>
+      </div>
+      <div data-note="Ab" class="key black"><BUtton class='blackButton'>Y</BUtton>
+        <h2>Ab</h2>
+      </div>
+      <div data-note="A" class="key white">
+        <h1>A</h1>
+        <BUtton>H</BUtton>
+      </div>
+      <div data-note="Bb" class="key black"><BUtton class='blackButton'>U</BUtton>
+        <h2>Bb</h2>
+      </div>
+      <div data-note="B" class="key white">
+        <h1>B</h1>
+        <BUtton>J</BUtton>
+      </div>
+    </div>
+
+    <audio id="C" src="/assets/notes/C.mp3"></audio>
+    <audio id="Db" src="/assets/notes/Db.mp3"></audio>
+    <audio id="D" src="/assets/notes/D.mp3"></audio>
+    <audio id="Eb" src="/assets/notes/Eb.mp3"></audio>
+    <audio id="E" src="/assets/notes/E.mp3"></audio>
+    <audio id="F" src="/assets/notes/F.mp3"></audio>
+    <audio id="Gb" src="/assets/notes/Gb.mp3"></audio>
+    <audio id="G" src="/assets/notes/G.mp3"></audio>
+    <audio id="Ab" src="/assets/notes/Ab.mp3"></audio>
+    <audio id="A" src="/assets/notes/A.mp3"></audio>
+    <audio id="Bb" src="/assets/notes/Bb.mp3"></audio>
+    <audio id="B" src="/assets/notes/B.mp3"></audio>
+  </div>
+  <script src="/assets/js/piano.js"></script>
+
+</body>
+
+</html>
